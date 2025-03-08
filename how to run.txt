@@ -1,0 +1,26 @@
+1.Install Dependencies
+
+pip install ccxt numpy ta-lib python-dotenv
+
+2.Run the Bot
+
+Save the code as trading_bot.py.
+
+Execute: python trading_bot.py.
+
+Check trading_bot.log for activity.
+
+3. Customize:
+
+change strategy_type in main() to "RSI" or "MACD".
+
+For live trading, uncomment order creation lines in execute_trade and add real API keys to a .env file:
+
+API_KEY=your_api_key
+SECRET_KEY=your_secret_key
+
+After testing, the trading program ran without errors, and I fixed minor issues (data task concurrency and balance check) to enhance reliability. The code is fully functional, retains all requested features, and is optimized for performance. It’s ready for use in simulation mode or live trading with minimal adjustments. Let me know if further refinements are needed!
+
+https://hustlerssocietycommunity.com
+
+

@@ -1,0 +1,13 @@
+Final Optimized Trading Program
+This is a cryptocurrency trading bot built with Python, designed to connect to an exchange (e.g., Binance), fetch real-time market data, compute technical indicators, and execute trades based on configurable strategies. The code includes error handling, multiple trading strategies, and asynchronous execution for efficiency.
+Key Features
+Real-time Data Fetching: Fetches historical and live data in batches.
+
+Technical Indicators: Precomputes SMA, RSI, and MACD for fast strategy execution.
+
+Trading Strategies: Supports Moving Average Crossover, RSI, and MACD strategies.
+
+Error Handling: Implements retry logic for API failures and detailed logging.
+
+Asynchronous Design: Uses asyncio to prevent blocking and ensure responsiveness.
+
